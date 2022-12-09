@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart' hide BoxDecoration, BoxShadow;
 import 'package:flutter_inset_box_shadow/flutter_inset_box_shadow.dart';
-import 'package:flutter_tutorial/home.dart';
-import 'package:flutter_tutorial/home_screen.dart';
+import 'package:flutter_tutorial/main_screen.dart';
 class BoardingScreen extends StatefulWidget {
   const BoardingScreen({Key? key}) : super(key: key);
 
@@ -91,7 +90,7 @@ class _BoardingScreenState extends State<BoardingScreen> {
                       child: Center(
                         child: InkWell(
                           onTap: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (_)=>const HomeScreen()));
+                            Navigator.push(context, MaterialPageRoute(builder: (_)=>const MainScreen()));
                           },
                           child: CircleAvatar(
                             backgroundColor: Color(0xffabded8),

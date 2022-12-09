@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/boarding_screen.dart';
-import 'package:flutter_tutorial/home.dart';
 
 void main() {
   runApp(const MyApp());
